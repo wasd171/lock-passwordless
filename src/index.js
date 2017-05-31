@@ -41,9 +41,9 @@ export default class Auth0LockPasswordless {
     setupLock(this.id, clientID, domain);
   }
 
-  close() {
+  close(cb) {
     const f = Auth0LockPasswordless.plugins.closeFn(this.plugin);
-    f(this.id, true);
+    f(this.id, true, cb);
   }
 
   destroy() {
