@@ -2,7 +2,7 @@
   "name": "auth0-lock-passwordless",
   "version": "2.2.3",
   "description": "Auth0 Lock Passwordless",
-  "author": "Auth0 <support@auth0.com> (http://auth0.com)",
+  "author": "wasd171 <wasd171@gmail.com>",
   "license": "MIT",
   "keywords": [
     "auth0",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/auth0/lock-passwordless"
+    "url": "git://github.com/wasd171/lock-passwordless.git"
   },
   "main": "lib/index.js",
   "scripts": {
