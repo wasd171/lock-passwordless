@@ -31,8 +31,8 @@ export class Mode {
 
   // render must be implemented in each mode
 
-  close(id, force) {
-    closeLock(id, force);
+  close(id, force, cb) {
+    closeLock(id, force, cb);
   }
 
   setModel(m) {
